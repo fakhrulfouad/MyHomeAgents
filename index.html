@@ -8,148 +8,191 @@
   <link href="https://fonts.googleapis.com/css2?family=Abel&family=Merriweather:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 
-  <div class="navigation">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">My Home Agents</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <!-- navigation -->
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://mailchi.mp/99fdbd951dfd/myhomeagents">Contact Us</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+  <nav class="navbar navbar-expand-md navbar-light sticky-top" style="background-color: #e3f2fd;">
+    <a href="index.html" class="navbar-text">My Home Agents</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link active" href="index.html"> Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://mailchi.mp/99fdbd951dfd/myhomeagents"> About </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://mailchi.mp/99fdbd951dfd/myhomeagents"> Services </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://mailchi.mp/99fdbd951dfd/myhomeagents"> Team </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://mailchi.mp/99fdbd951dfd/myhomeagents"> Connect </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- carousel -->
+
+  <div id="slides" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#slides" data-slide-to="0" class="active"> </li>
+      <li data-target="#slides" data-slide-to="1"> </li>
+      <li data-target="#slides" data-slide-to="2"> </li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="house1.jpg" alt="">
+        <div class="carousel-caption">
+          <h1 class="display-2">My Home Agents</h1>
+          <h3>Find top-rated real estate agents</h3>
+          <a href="https://mailchi.mp/99fdbd951dfd/myhomeagents"><button type="button" class="btn btn-outline-light btn-lg">Find Out More</button></a>
+          <a href="https://mailchi.mp/99fdbd951dfd/myhomeagents"><button type="button" class="btn btn-primary btn-lg">Hire Agents</button></a>
+        </div>
       </div>
-    </nav>
-  </div>
-
-<div class="containerbody d-flex p-2 bd-highlight justify-content-center">
-  <div class="row">
-    <header class="text-center col-12">
-      <h1 class="tajuk1">My Home Agents</h1>
-      <h2>Find top-rated real estate agents</h2>
-    </header>
-  </div>
-</div>
-
-<div class="containerbody2 d-flex p-2 bd-highlight justify-content-center">
-  <div class="row">
-    <header class="d-flex text-center col-12">
-        <h2 class="tajuk2">We are all biochemically unique. Managing your rental home should be, too.</h2>
-    </header>
-  </div>
-</div>
-
-<hr>
-
-<div class="container d-flex justify-content-center">
-  <div class="row">
-    <head class="d-flex text-center col-12">
-      <h2 class="tajuk2">Our Service</h2>
-    </head>
-  </div>
-</div>
-
-<div class="d-inline-flex p-2 bd-highlight justify-content-around">
-          <div class="row text-left col-4 align-content-center alongcomel" >
-            <p>Our startup aims to provide a hub where local <strong>real-estate agencies</strong> can easily <strong>connect</strong> and<strong> reach out</strong> to
-              potential clients who are looking for a hassle-free experience in managing their rental properties.</p>
-          </div>
-
-          <div class="text-center col-6">
-            <img src="officework.jpg" class="img-fluid" alt="Responsive image">
-          </div>
-</div>
-
-<hr>
-
-<div class="d-inline-flex p-2 bd-highlight justify-content-around">
-  <div class="text-center col-6">
-    <img src="agent2.jpg" class="img-fluid" alt="Responsive image">
-  </div>
-      <div class="d-inline-flex p-2 bd-highlight justify-content-around">
-          <div class="row text-left col-8 align-content-center alongcomel">
-        <p>
-      Brand visibility is important for any company hence; we aim to provide a platform where all real-estate agencies
-      have <strong>equal opportunity</strong> to showcase their portfolio and attract large number of home-owners to their business.
-        </p>
-          </div>
+      <div class="carousel-item">
+        <img src="house2.jpg" alt="">
+        <div class="carousel-caption">
+          <h1 class="display-3">Manage your assets, hassle-free</h1>
+        </div>
       </div>
-</div>
+      <div class="carousel-item">
+        <img src="house3.jpg" alt="">
+        <div class="carousel-caption">
+          <h1 class="display-3">Worry less, earn more</h1>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<hr>
+  <!-- jumbotron -->
 
-<div class="d-inline-flex p-2 bd-highlight justify-content-around">
-          <div class="row text-left col-4 align-content-center alongcomel" >
-            <p>Our startup uses the latest and greatest <strong>Search Engine Optimization (SEO)</strong> techniques to ensure that our platform
-            remains the most robust and competitive website in the world for years to come. You can count on us to
-          deliver results that matter!</p>
-          </div>
+  <div class="container-fluid">
+    <div class="row jumbotron" style="background-color:#e3f2fd !important">
+      <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+        <h3> We are all biochemically unique. Managing your rental home should be, too. </h3>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+        <a href="https://mailchi.mp/99fdbd951dfd/myhomeagents"><button type="button" class="btn btn-outline-secondary btn-lg">Find Out Why</button></a>
+      </div>
+    </div>
+  </div>
 
-          <div class="text-center col-6">
-            <img src="computer.jpg" class="img-fluid" alt="Responsive image">
-          </div>
-</div>
+  <!-- Services -->
 
-<hr>
-
-<div class="container d-flex justify-content-center">
   <div class="row">
-    <head class="d-flex text-center col-12">
-      <h2 class="tajuk2">Meet Our Team</h2>
-    </head>
-  </div>
-</div>
-
-<div class="container">
-  <div class="row orangberiman1">
-    <div class="col"><img src="circle-cropped.png" class="img-fluid" alt="Responsive image"></div>
-    <div class="col"><img src="halims2.png" class="img-fluid" alt="Responsive image"></div>
-  </div>
-  <div class="row orangberiman2">
-    <div class="col text-center"><h3><strong>Fakhrul Fouad</strong></h3></div>
-    <div class="col text-center"><h3><strong>Halim Shukor</strong></h3></div>
-  </div>
-  <div class="row orangberiman2">
-    <div class="col text-center"><h4>Web Developer, CTO of My Home Agents</h4></div>
-    <div class="col text-center"><h4>Data Analyst, CEO of My Home Agents</h4></div>
-  </div>
-  <div class="row orangberiman2">
-    <div class="col text-center"><p class="potato">A self-taught developer with a fury for learning. Loves fish and chips</p></div>
-    <div class="col text-center"><p class="potato">An engineer by day, data analyst by night. Occasionally brags about his Supreme clothing line collection </p></div>
-  </div>
-</div>
-
-<div class="containerbody3">
-  <div class="socialmedia text-center">
-    <h2 class="tajuk2 text-center">Excited About Our Idea? Let's Connect</h2>
-    <a href="https://mailchi.mp/99fdbd951dfd/myhomeagents">
-      <button type="button" class="btn btn-danger">Connect</button></a>
-  </div>
-  <div class="socialmedia2 text-center">
-    <a href="https://www.facebook.com/encik.fakhrul">
-    <button type="button" class="btn btn-fb"><i class="fab fa-facebook-f pr-1">Facebook</button></i>
-    </a>
-    <a href="https://www.linkedin.com/in/muhamad-halim-muhamad-shukor-8b5545145/">
-    <button type="button" class="btn btn-li"><i class="fab fa-linkedin-in pr-1">Linkedin</button></i>
-    </a>
-    <p>© Designed by Manjung</p>
+    <div class="col-md-7">
+      <h2 class="text-muted featuretitle">Our Goal</span></h2>
+      <p class="lead">Our startup aims to provide a hub where local real-estate agencies can easily connect and reach out to
+        potential clients who are looking for a hassle-free experience in managing their rental properties.</p>
+    </div>
+    <div class="col-md-5 d-flex align-items-center">
+      <img class="featurette-image img-fluid mx-auto" src="officework.jpg"" alt=" Image1">
+    </div>
   </div>
 
+  <hr>
+
+  <div class="row">
+    <div class="col-md-7 order-md-12">
+      <h2 class="text-muted featuretitle">It'll blow your mind</span></h2>
+      <p class="lead">Brand visibility is important for any company hence; we aim to provide a platform where all real-estate agencies
+        have <strong>equal opportunity</strong> to showcase their portfolio and attract large number of home-owners to their business.</p>
+    </div>
+    <div class="col-md-5 order-md-1 d-flex align-items-center">
+      <img class="featurette-image img-fluid mx-auto" src="agent2.jpg"" alt=" Image1">
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="row">
+    <div class="col-md-7">
+      <h2 class="text-muted featuretitle">See for yourself</span></h2>
+      <p class="lead">Our startup uses the latest and greatest Search Engine Optimization (SEO) techniques to ensure that our platform
+        remains the most robust and competitive website in the world for years to come. You can count on us to
+        deliver results that matter!</p>
+    </div>
+    <div class="col-md-5 d-flex align-items-center">
+      <img class="featurette-image img-fluid mx-auto" src="computer.jpg"" alt=" Image1">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- team -->
+
+<div class="container-fluid padding">
+  	<div class="row welcome text-center">
+  		<div class="col-12">
+  			<h3 class="display-4">Meet the Team</h3>
+  		</div>
+  		<hr>
+  	</div>
 </div>
+
+<div class="container-fluid padding">
+<div class="row padding">
+
+  <div class="col-md-6">
+    <div class="card">
+      <img class="card-img-top"src="agent1.jpg" alt="Photo of Fakhrul">
+      <div class="card-body">
+        <h4 class="card-title">Fakhrul Fouad</h4>
+        <p class="card-text">Web Developer, CTO of My Home Agents</p>
+        <p>A self-taught developer with a fury for learning. Loves fish and chips</p>
+        <a href="https://www.linkedin.com/in/fakhrul-fouad-923819174/" class="btn btn-outline-secondary">See profile</a>
+      </div>
+    </div>
+  </div>
+
+	<div class="col-md-6">
+		<div class="card">
+			<img class="card-img-top"src="halims.jpg" alt="Photo of Halim">
+			<div class="card-body">
+				<h4 class="card-title">Halim Shukor</h4>
+				<p class="card-text">Data Analyst, CEO of My Home Agents</p>
+        <p>Entrepeneur. Occasionally brags about his Supreme clothing line collection</p>
+				<a href="https://www.linkedin.com/in/halimshukor/" class="btn btn-outline-secondary">See profile</a>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<!-- connect -->
+
+<footer class="page-footer">
+<div class="container-fluid padding">
+<div class="row text-center padding">
+  <div class="col-12">
+    <h2>Excited about our idea? Let's connect!</h2>
+  </div>
+  <div class="col-12 social padding">
+    <a href="https://mailchi.mp/99fdbd951dfd/myhomeagents"><i class="fab fa-facebook"></i></a>
+    <a href="https://mailchi.mp/99fdbd951dfd/myhomeagents"><i class="fab fa-twitter"></i></a>
+    <a href="https://mailchi.mp/99fdbd951dfd/myhomeagents"><i class="fab fa-google-plus-g"></i></a>
+    <a href="https://mailchi.mp/99fdbd951dfd/myhomeagents"><i class="fab fa-instagram"></i></a>
+    <a href="https://mailchi.mp/99fdbd951dfd/myhomeagents"><i class="fab fa-youtube"></i></a>
+  </div>
+</div>
+</div>
+  <div class="footer-copyright text-center py-3">© Designed By:
+    <a href="https://www.linkedin.com/in/halimshukor/"> Manjung </a>
+  </div>
+</footer>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
